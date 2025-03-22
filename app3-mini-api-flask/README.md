@@ -21,7 +21,6 @@ Este projeto implementa uma API REST simples usando Flask, demonstrando conceito
 
 ## Estrutura do Projeto
 
-- `api.por`: Implementação em Portugol (simulação)
 - `api.py`: Implementação em Python usando Flask
 - `tutorial.md`: Tutorial passo a passo para iniciantes
 
@@ -43,11 +42,6 @@ Este projeto implementa uma API REST simples usando Flask, demonstrando conceito
    ```
    http://localhost:5000/api/produtos
    ```
-
-### Versão Portugol
-
-1. Abra o arquivo `api.por` no Portugol Studio
-2. Execute o programa para iniciar a simulação da API
 
 ## Modelo de Dados
 

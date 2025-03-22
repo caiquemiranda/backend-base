@@ -1,16 +1,12 @@
-# Backend em Portugol
+# Backend Base
 
-Este repositório contém projetos de backend implementados em Portugol, uma pseudo-linguagem de programação em português usada para fins educacionais. O objetivo é apresentar conceitos de desenvolvimento backend de forma mais acessível para falantes de português, similar ao que seria feito com Python (Flask, FastAPI, Django), mas usando Portugol.
-
-## Sobre o Portugol
-
-Portugol é uma linguagem estruturada com sintaxe em português, projetada para o ensino de lógica de programação. Embora seja mais simples que linguagens profissionais, ela é útil para entender os conceitos fundamentais da programação.
+Este repositório contém projetos de backend implementados em Python, demonstrando diferentes técnicas e conceitos de desenvolvimento de aplicações web.
 
 ## Projetos Disponíveis
 
 ### 1. Servidor HTTP Básico (`app1-servidor-http`)
 
-Um servidor HTTP simples implementado em Portugol, sem uso de frameworks. Este projeto demonstra:
+Um servidor HTTP simples implementado em Python, sem uso de frameworks. Este projeto demonstra:
 - Como funciona um servidor HTTP basicamente
 - Processamento de requisições GET e POST
 - Roteamento de URLs
@@ -32,14 +28,17 @@ Uma API REST simples implementada usando o framework Flask. Este projeto demonst
 - Respostas em formato JSON
 - Uso de diferentes métodos HTTP (GET, POST, PUT, DELETE)
 
+### 4. CRUD com Flask e SQLite (`app4-crud-flask-sqlite`)
+
+Um aplicativo CRUD completo usando Flask e SQLite, demonstrando persistência de dados em banco de dados relacional. Este projeto demonstra:
+- Interface web para gerenciamento de produtos
+- API REST para operações CRUD
+- Persistência de dados com SQLite
+- Formulários para adicionar e editar produtos
+
 ## Como Executar os Projetos
 
-Para executar os projetos, você precisará do [Portugol Studio](http://lite.acad.univali.br/portugol/) para as versões em Portugol, e Python 3.x para as versões em Python.
-
-### Projetos em Portugol:
-1. Baixe e instale o Portugol Studio
-2. Abra o arquivo `.por` do projeto desejado
-3. Execute o programa (F6 ou botão "Executar")
+Para executar os projetos, você precisará do Python 3.x e as dependências específicas de cada projeto.
 
 ### Projetos em Python:
 1. Instale as dependências necessárias (veja o README específico de cada projeto)
@@ -48,19 +47,21 @@ Para executar os projetos, você precisará do [Portugol Studio](http://lite.aca
 
 ## Tutoriais Passo a Passo
 
-Cada projeto inclui um tutorial detalhado passo a passo (`tutorial.md`) explicando como implementar a versão Python do projeto do zero. Estes tutoriais são ideais para iniciantes em desenvolvimento backend.
+Cada projeto inclui um tutorial detalhado passo a passo (`tutorial.md`) explicando como implementar o projeto do zero. Estes tutoriais são ideais para iniciantes em desenvolvimento backend.
 
-## Limitações
+## Diferencial Educacional
 
-Por serem implementados em Portugol, estes projetos:
-- São simulações e não criam serviços reais na rede
-- Possuem funcionalidades limitadas comparadas a implementações profissionais
-- São orientados ao aprendizado e não à produção
+Estes projetos são projetados para serem incrementais, começando de conceitos básicos e progredindo para técnicas mais avançadas:
+
+1. O primeiro projeto ensina como HTTP funciona em baixo nível
+2. O segundo projeto adiciona conceitos de persistência de dados
+3. O terceiro projeto introduz um framework web e conceitos de API REST
+4. O quarto projeto integra banco de dados relacional e interface web
 
 ## Próximos Passos
 
 Futuros projetos incluirão:
 - API REST mais avançada com autenticação
-- Integração com banco de dados relacional
+- ORM com SQLAlchemy
 - Templates e renderização de páginas
 - WebSockets para comunicação em tempo real 
